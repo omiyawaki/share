@@ -10,8 +10,8 @@ idirp="/project/mojave/observations/ERA5_daily/PS/"
 idirtd="/project/mojave/observations/ERA5_daily/TD2m/"
 idirq="/project/mojave/observations/ERA5_daily/Q2m/"
 
-ystart=1960
-yend=2020
+ystart=1959
+yend=1978
 
 for iyear in tqdm(np.arange(ystart,yend+1,1)):
     fnamep = idirp+"ps_"+str(iyear)+".nc"
